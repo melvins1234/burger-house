@@ -1,7 +1,11 @@
-import "./App.css";
+import Banner from "./components/Banner/Banner";
 
 function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <Banner />
+    </>
+  );
 }
 
 export default App;
