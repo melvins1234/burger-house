@@ -1,9 +1,11 @@
+import "./header.scss";
+
 import CompLogo from "../../images/comp_logo.png";
 import deliverVector from "../../images/deliver_vector.png";
 
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <section className="header__logo">
         <img src={CompLogo} alt="Burger House" />
       </section>
@@ -14,7 +16,14 @@ const Header = () => {
           </span>
           <span>Express Delivery +1 234 567 890</span>
         </section>
-        <nav className="header__nav"></nav>
+        <nav className="header__nav">
+          <ul>
+            <li>HOME</li>
+            <li>MENU</li>
+            <li>OUR STORY</li>
+            <li>CONTACT US</li>
+          </ul>
+        </nav>
       </section>
     </header>
   );
