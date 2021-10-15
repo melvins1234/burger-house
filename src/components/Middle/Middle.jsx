@@ -9,19 +9,19 @@ const Middle = () => {
     <div className="middle">
       <div className="wrapper">
         <section className="middle__grid-container">
-          <div class="middle__boxes middle__boxes--left">
+          <div className="middle__boxes middle__boxes--left">
             <h3 className="middle__content">
               Try it today <span>most popular burger</span>
             </h3>
             <img src={burgerLeft} alt="Burger" />
           </div>
-          <div class="middle__boxes middle__boxes--top">
+          <div className="middle__boxes middle__boxes--top">
             <h3 className="middle__content">
               Try it today <span>more fun</span> <span>more taste</span>
             </h3>
             <img src={burgerRightTop} alt="Burger" />
           </div>
-          <div class="middle__boxes middle__boxes--bottom">
+          <div className="middle__boxes middle__boxes--bottom">
             <h3 className="middle__content">
               Try it today <span>fresh & chili</span>
             </h3>

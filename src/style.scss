@@ -46,6 +46,7 @@
 body {
   font: normal normal normal 17px/17px Montserrat;
   color: #3d2514;
+  overflow-x: hidden;
 }
 
 @mixin text-uppercase {
