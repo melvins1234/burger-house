@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+  &__logo {
+    width: 255px;
+  }
+  &__info {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  &__icon {
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    margin: 0 20px;
+  }
+  &__nav {
+    font: normal normal normal 28px Bebas Neue;
+    width: 480px;
+    max-width: 100%;
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

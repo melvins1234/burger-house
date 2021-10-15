@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("./fonts/BebasNeue-Regular.woff2") format("woff2"),
+    url("./fonts/BebasNeue-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bebas Neue Book";
+  src: url("./fonts/BebasNeueBook.woff2") format("woff2"),
+    url("./fonts/BebasNeueBook.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("./fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("./fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Alfa Slab One";
+  src: url("./fonts/AlfaSlabOne-Regular.woff2") format("woff2"),
+    url("./fonts/AlfaSlabOne-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font: normal normal normal 17px/17px Montserrat;
+  color: #3d2514;
+}
+
+@mixin text-uppercase {
+  text-transform: uppercase;
+}
+
+h1,
+h2 {
+  @include text-uppercase();
+  font: normal normal normal 25px Alfa Slab One;
+}
+h3 {
+  @include text-uppercase();
+}
+.wrapper {
+  position: relative;
+  max-width: 1328px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}

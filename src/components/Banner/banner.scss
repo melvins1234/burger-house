@@ -1,0 +1,97 @@
+.banner {
+  background: url("../../images/background.jpg") center center;
+  height: 825px;
+  display: flex;
+
+  &__content {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  &__text {
+    margin-top: 143px;
+    &--sub-text {
+      border: 3px dashed #4d3828;
+      padding: 10px 20px;
+      display: inline-block;
+      font: normal normal normal 24px Bebas Neue Book;
+      margin-bottom: 25px;
+    }
+    &--big-text {
+      text-shadow: 4px 4px rgba(255, 255, 255, 0.6);
+      line-height: 100px;
+      display: flex;
+      flex-direction: column;
+      font-size: 114px;
+    }
+    &--big-sub-text {
+      font-size: 56px;
+    }
+  }
+  &__content {
+    &--image {
+      position: absolute;
+      bottom: 65px;
+      right: -30px;
+      &::before {
+        content: "";
+        position: absolute;
+        height: 232px;
+        width: 232px;
+        background: rgba(255, 222, 157, 0.7);
+        border-radius: 50%;
+        top: 72px;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 0px 1px 115px 50px rgb(255, 222, 157);
+      }
+
+      img {
+        z-index: 1;
+        position: relative;
+      }
+    }
+
+    &-price--red-circle {
+      width: 174px;
+      height: 174px;
+      border-radius: 50%;
+      background-color: #bf2222;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: 30px;
+      left: 50px;
+      z-index: 1;
+      &::after {
+        content: "";
+        position: absolute;
+        width: 151px;
+        height: 151px;
+        border: 3px dashed #ffffff;
+        border-radius: 50%;
+      }
+
+      p {
+        font-size: 33px;
+        font-weight: normal;
+        font-family: "Bebas Neue";
+        line-height: 38px;
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+        span {
+          font-size: 70px;
+        }
+        strong {
+          display: block;
+          letter-spacing: 12px;
+          text-indent: -14px;
+          direction: rtl;
+        }
+      }
+    }
+  }
+}

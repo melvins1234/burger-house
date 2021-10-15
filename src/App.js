@@ -1,7 +1,13 @@
-import "./App.css";
+import Banner from "./components/Banner/Banner";
+import Middle from "./components/Middle/Middle";
 
 function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <Banner />
+      <Middle />
+    </>
+  );
 }
 
 export default App;
