@@ -1,0 +1,12 @@
+@mixin sectionTitle {
+  font: normal normal normal 50px/17px Alfa Slab One;
+}
+
+.order-now {
+  background: #bf2222;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: Alfa Slab One;
+  padding: 23px 40px;
+  color: #fff;
+}
