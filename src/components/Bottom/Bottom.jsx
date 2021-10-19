@@ -1,3 +1,8 @@
+import BottomBurgerSection from "./BottomBurgerSection";
+
+import bottom_burger1 from "../../images/bottom_burger-1.png";
+import bottom_burger2 from "../../images/bottom_burger-2.png";
+
 import "./bottom.scss";
 
 const Bottom = () => {
@@ -17,6 +22,23 @@ const Bottom = () => {
           </p>
         </section>
       </div>
+      <section className="bottom__body">
+        <BottomBurgerSection
+          image={bottom_burger1}
+          title="Lorem ipsum dolor"
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+        />
+        <BottomBurgerSection
+          image={bottom_burger2}
+          title="Lorem ipsum dolor"
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+        />
+        <BottomBurgerSection
+          image={bottom_burger1}
+          title="Lorem ipsum dolor"
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+        />
+      </section>
     </section>
   );
 };

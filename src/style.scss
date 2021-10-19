@@ -44,7 +44,7 @@
 }
 
 body {
-  font: normal normal normal 17px/17px Montserrat;
+  font: normal normal normal 17px/25px Montserrat;
   color: #3d2514;
   overflow-x: hidden;
 }
@@ -69,6 +69,7 @@ a {
 }
 h3 {
   @include text-uppercase();
+  font: normal normal normal 25px Bebas Neue;
 }
 .wrapper {
   position: relative;
